@@ -3,8 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Zentry - Metagame",
-  description:
-    "Zentry: The Metagame, The Game of Games To Elevate Gaming Culture | Zentry",
+  description: "Zentry: The Metagame, The Game of Games To Elevate Gaming Culture | Zentry",
 };
 
 export default function RootLayout({
@@ -14,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={``}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
